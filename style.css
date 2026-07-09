@@ -364,3 +364,39 @@ footer p:first-child {
     grid-template-columns: 1fr;
   }
 }
+
+.page-hero {
+  padding: 64px 0 28px;
+  max-width: 880px;
+}
+
+.page-hero h2 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.page-hero p:not(.eyebrow) {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.12rem;
+  margin: 20px 0 0;
+}
+
+.callout {
+  border: 1px solid var(--line);
+  background: #fbfcfe;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.callout h4 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.callout p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
